@@ -14,6 +14,8 @@ const Diaporama = styled.div`
 const DiapoImg = styled.img`
   width: ${props => props.landscape? '100vw' : 'auto'};
   height: ${props => props.portrait? '100vh' : 'auto'};
+  max-width: 100vw;
+  max-height: 100vh;
   position: relative;
 `;
 

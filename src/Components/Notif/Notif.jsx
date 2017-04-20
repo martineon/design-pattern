@@ -18,7 +18,7 @@ font-size: 0.9em;
 text-align: center;
 color: palevioletred;
 
-`
+`;
 class Notif extends Component {
   constructor() {
     super();
