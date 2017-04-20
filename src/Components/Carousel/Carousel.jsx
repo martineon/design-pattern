@@ -1,7 +1,8 @@
-
 import React, {Component} from 'react';
 import styled from 'styled-components';
 import Diapo from './Diapo.jsx';
+import Notif from '../Notif/Notif.jsx';
+
 
 const NavLeft = styled.div`
   width: 40px;
@@ -87,7 +88,7 @@ class Carousel extends Component {
             img="http://unsplash.com/photos/U5yxLsCGXYQ/download?force=true"
             landscape
           >
-            WILD
+            <Notif/>
           </Diapo>
           <Diapo
             bgColor="black"
