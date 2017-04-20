@@ -1,0 +1,63 @@
+.Menu-container {
+	position: fixed;
+	width: 100%;
+	top: 15px;
+	margin: 0 auto;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+}
+
+.has-subnav {
+	overflow: hidden;
+	max-height: 40px;
+	transition: 0.5s ease-in-out;
+}
+
+.has-subnav:hover {
+	max-height: 400px;
+}
+
+.Menu-desktop {
+	display: block;
+}
+
+.Menu-mobile {
+	display: none;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	color: rgb(39, 179, 132);
+	text-decoration: none;
+	border-radius: 5px;
+	border: 2px solid rgb(39, 179, 132);
+	padding: 10px;
+}
+
+.active {
+	display: block;
+	max-height: 100vh;
+}
+
+@media (max-width: 500px) {
+	.Menu-mobile {
+		display: block;
+	}
+	.Menu-desktop {
+		margin: auto;
+		margin-top: 60px;
+		width: 90%;
+	}
+
+	.has-subnav:hover {
+		/*max-height: 40px;*/
+	}
+
+	.level-1 {
+		flex-direction: column;
+	}
+
+	.section-title {
+		background: rgb(39, 179, 132);
+	}
+}
