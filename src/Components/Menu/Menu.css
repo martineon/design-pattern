@@ -1,0 +1,39 @@
+.has-subnav {
+	overflow: hidden;
+	max-height: 40px;
+	transition: 0.5s ease-in-out;
+}
+
+.has-subnav:hover {
+	max-height: 400px;
+}
+
+.Menu-desktop {
+
+}
+
+.Menu-mobile {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	color: c;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 2px solid rgb(39, 179, 132);
+	padding: 10px;
+}
+
+@media (max-width: 500px) {
+	.Menu-desktop {
+		margin: auto;
+		margin-top: 60px;
+		width: 90%;
+	}
+	.level-1 {
+		flex-direction: column;
+	}
+
+	.section-title {
+		background: rgb(39, 179, 132);
+	}
+}
