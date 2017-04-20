@@ -6,7 +6,7 @@ class Menu extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			isMenuActive : true
+			isMenuActive : false
 		}
 	};
 	render() {
@@ -17,7 +17,7 @@ class Menu extends Component {
 			});
 		};
 
-		
+
 
 		const ActiveSection = (e) => {
 			e.preventDefault();

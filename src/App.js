@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         {/* <Notif/> */}
         <Menu/>
-        {/* <Carousel/> */}
+        <Carousel/>
       </div>
     );
   }
